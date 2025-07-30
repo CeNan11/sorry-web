@@ -47,7 +47,7 @@ const App: React.FC = () => {
             } text-center`}
           >
             <img
-              src="/enve.png"
+              src="enve.png"
               alt="Envelope"
               className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-lg mx-auto"
             />
@@ -68,11 +68,11 @@ const App: React.FC = () => {
               className="text-gray-700 text-base sm:text-lg whitespace-pre-line leading-relaxed text-left"
             />
             <img
-              src="/cat.gif"
+              src="cat.gif"
               alt="Cute GIF"
               className="rounded-xl w-full max-h-52 sm:max-h-60 object-cover shadow-md"
             />
-            <audio ref={audioRef} src="/Sparks.mp3" className="hidden" />
+            <audio ref={audioRef} src="Sparks.mp3" className="hidden" />
           </div>
         )}
       </div>
