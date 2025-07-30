@@ -47,7 +47,7 @@ const App: React.FC = () => {
             } text-center`}
           >
             <img
-              src="enve.png"
+              src="/sorry-web/enve.png"
               alt="Envelope"
               className="w-32 h-32 sm:w-40 sm:h-40 object-contain drop-shadow-lg mx-auto"
             />
@@ -60,7 +60,7 @@ const App: React.FC = () => {
             <h1 className="text-2xl font-bold text-pink-500">Hi Honey,</h1>
             <TypeAnimation
               sequence={[
-                `Honey, first of all, sorry. I couldn’t think of any other way na mag-sorry with effort, because hehe I don’t have the courage to say sorry to you personally right now and this is the best I can do.\n\nHoney, sorry po for what I said earlier and yesterday. I know po you got a double meaning when I said “be careful,” and I’m really sorry po ato. Sorry if na-trigger ko and gipadako pa nako ang problema.\n\nI’m so sorry din for having very low emotional intelligence now and gabii, honey. I hope po you will forgive me. I’m sorry if I made you suffer and feel like I don’t trust you that’s on me, hon. I’m really sorry for everything. I hurt you, and that made me realize na maybe all this time I’ve been a bad boyfriend.\n\nI can’t promise anything with words, but I’ll prove everything with actions. I’m really sorry, honey. I love you so much.`,
+                `Honey, first of all, sorry. I couldn’t think of any other way na mag-sorry with effort, because hehe I don’t have money yet po to say sorry to you personally right now and this is the best I can do.\n\nHoney, sorry po for what I said earlier and yesterday. I know po you got a double meaning when I said “be careful,” and I’m really sorry po ato. Sorry if na-trigger ko and gipadako pa nako ang problema.\n\nI’m so sorry din for having very low emotional intelligence now and gabii, honey. I hope po you will forgive me. I’m sorry if I made you suffer and feel like I don’t trust you that’s on me, hon. I’m really sorry for everything. I hurt you, and that made me realize na maybe all this time I’ve been a bad boyfriend.\n\nI can’t promise anything with words, but I’ll prove everything with actions. I’m really sorry, honey. I love you so much.`,
               ]}
               wrapper="p"
               cursor={true}
@@ -68,11 +68,11 @@ const App: React.FC = () => {
               className="text-gray-700 text-base sm:text-lg whitespace-pre-line leading-relaxed text-left"
             />
             <img
-              src="cat.gif"
+              src="/sorry-web/cat.gif"
               alt="Cute GIF"
               className="rounded-xl w-full max-h-52 sm:max-h-60 object-cover shadow-md"
             />
-            <audio ref={audioRef} src="Sparks.mp3" className="hidden" />
+            <audio ref={audioRef} src="/sorry-web/Sparks.mp3" className="hidden" />
           </div>
         )}
       </div>
